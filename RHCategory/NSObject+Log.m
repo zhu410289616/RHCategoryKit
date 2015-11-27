@@ -11,16 +11,6 @@
 
 @implementation NSObject (Log)
 
-+ (instancetype)rh_sharedInstance
-{
-    static id sharedInstance = nil;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        sharedInstance = [[self alloc] init];
-    });
-    return sharedInstance;
-}
-
 - (NSString *)autoDescription:(Class)classType
 {
     NSMutableString *propertyMutableStr = [[NSMutableString alloc] init];

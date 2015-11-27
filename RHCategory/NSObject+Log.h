@@ -20,8 +20,6 @@
 
 @interface NSObject (Log)
 
-+ (instancetype)rh_sharedInstance;
-
 - (void)logWithMark:(NSString *)mark;
 - (void)log;
 
