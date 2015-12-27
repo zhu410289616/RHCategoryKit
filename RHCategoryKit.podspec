@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "RHCategoryKit"
-  s.version      = "1.0.2"
-  s.summary      = "some category"
+  s.version      = "1.0.3"
+  s.summary      = "RHCategory: Some Categorys."
   s.homepage     = "https://github.com/zhu410289616/RHCategoryKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "zhu410289616" => "zhu410289616@163.com" }
